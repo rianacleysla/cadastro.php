@@ -166,23 +166,16 @@ if(($emailvalido || $telefonevalido || $cpfvalido) && $senhavalida){
 }
 
 else{
-
     if(!$senhavalida){
         echo "A senha deve ter no mínimo 8 caracteres, letra maiúscula, minúscula, número e símbolo.";
     }
     else{
         echo "E-mail, telefone ou CPF inválido!";
     }
-
 }
-
 endif;
-
 ?>
-
 </div>
-
 </div>
-
 </body>
 </html>
